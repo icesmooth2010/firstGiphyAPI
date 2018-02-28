@@ -30,7 +30,7 @@ var topics = [];
         	var p = $("<p>").text("Rating: " + rating);
 
         	showImage.attr("src", staticSrc);
-        	//showImage.addClass("netflixGiphy");
+        	showImage.addClass("superHeroesGiphy");
         	showImage.attr("data-state", "still");
         	showImage.attr("data-still", staticSrc);
         	showImage.attr("data-animate", defaultAnimatedSrc);
@@ -72,7 +72,7 @@ var topics = [];
   $(document).on("click", "#show", displayHeroes);
 
   //Click event on gifs with class of "netflixGiphy" executes pausePlayGifs function
-  $(document).on("click", ".netflixGiphy", pausePlayGifs);
+  $(document).on("click", ".superHeroesGiphy", pausePlayGifs);
 
   //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-still"
   function pausePlayGifs() {
