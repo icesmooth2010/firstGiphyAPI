@@ -71,7 +71,7 @@ var topics = [];
   //Click event on button with id of "show" executes displayHeroes function
   $(document).on("click", "#show", displayHeroes);
 
-  //Click event on gifs with class of "netflixGiphy" executes pausePlayGifs function
+  //Click event on gifs with class of "superHeroesGiphy" executes pausePlayGifs function
   $(document).on("click", ".superHeroesGiphy", pausePlayGifs);
 
   //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-still"
